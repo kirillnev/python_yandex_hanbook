@@ -1,0 +1,6 @@
+name = input()
+mood = input()
+print('Как Вас зовут?')
+print(f'Здравствуйте, {name}!')
+print('Как дела?')
+print('Я за вас рада!' if mood == 'хорошо' else 'Всё наладится!')
